@@ -1,7 +1,7 @@
 'use strict';
 
 // Declare app level module which depends on views, and components
-var app = angular.module('talviolympicksApp', [
+var app = angular.module('ncmplApp', [
     'ui.router'
 ])
 .config(function($stateProvider, $urlRouterProvider) {

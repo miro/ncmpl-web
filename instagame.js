@@ -3,7 +3,7 @@ var Promise     = require('bluebird');
 var _           = require('lodash');
 
 
-var clientId = process.env.TO_INSTAGRAM_CLIENTID; // user key to your Instagram app
+var clientId = process.env.NOCO_INSTAGRAM_CLIENTID; // user key to your Instagram app
 var userId = 1573517626; // user id for IG user whos images we are fetching. this one is @talviolympicksofficial
 
 console.log(clientId);

@@ -32,7 +32,7 @@ app.configure(function() {
     });
 });
 
-console.log('### Talviolympicks Backend started!');
+console.log('### ncmpl-web Backend started!');
 console.log('Serving static resources from', filesDir);
 
 app.listen(serverPort);

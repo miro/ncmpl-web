@@ -1,7 +1,7 @@
 {
-  "name": "talviolympicks",
+  "name": "ncmpl-web",
   "version": "0.0.1",
-  "description": "talviolympicks ==============",
+  "description": "ncmpl-web ==============",
   "main": "server.js",
   "engines": {
     "node": "0.10.x"
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/miro/talviolympicks.git"
+    "url": "https://github.com/miro/ncmpl-web.git"
   },
   "author": "Miro Nieminen",
   "bugs": {
-    "url": "https://github.com/miro/talviolympicks/issues"
+    "url": "https://github.com/miro/ncmpl-web/issues"
   },
-  "homepage": "https://github.com/miro/talviolympicks",
+  "homepage": "https://github.com/miro/ncmpl-web",
   "dependencies": {
     "express": "~3.3.5",
     "request": "~2.51.0",

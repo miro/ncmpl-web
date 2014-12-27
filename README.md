@@ -1,10 +1,12 @@
-talviolympicks
+ncmpl-web
 ==============
 
-The most official website for the Talviolympicks organization
+Website for my DJ alias.
+
+This is a fork of another web site skeleton of mine, the [official Talviolympicks site](https://github.com/miro/talviolympicks).
 
 
 Setup
 ------
-Save your Instagram App's Client ID to environment variable `TO_INSTAGRAM_CLIENTID`.
+- Save Instagram App's Client ID to environment variable `NOCO_INSTAGRAM_CLIENTID`.
 
