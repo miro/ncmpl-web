@@ -1,3 +1,7 @@
+/* Main Primary color */
+/* Main Secondary color (1) */
+/* Main Secondary color (2) */
+/* Main Complement color */
 /*
     CLEARFIX HACK
     (http://nicolasgallagher.com/micro-clearfix-hack/)
@@ -19,7 +23,8 @@
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-image: url(../img/noco-lab-bg.jpg); }
+  background-image: url(../img/noco-lab-bg.jpg);
+  background-position: center center; }
 
 .main-wrap {
   z-index: 2;
@@ -32,35 +37,16 @@
 .logo-wrap {
   display: block;
   width: 100%;
-  border-radius: 3px;
+  max-width: 500px;
   box-shadow: 30px 30px 90px 3px rgba(0, 0, 0, 0.75);
-  background-color: #3D218F;
+  background-color: #185E84;
   color: #FFF; }
-  .logo-wrap .logo {
-    height: 300px;
-    width: 48%;
-    float: left;
-    background-image: url(../img/logo-full.png);
+  .logo-wrap .logo-text {
+    margin: 20px auto 10px auto;
+    width: 75%;
+    height: 100px;
+    display: block;
+    background-image: url(../img/nocomply-logo-text.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain; }
-  .logo-wrap .info {
-    margin: 20px auto;
-    float: left;
-    width: 48%;
-    border-left: 2px solid #FFF; }
-    .logo-wrap .info .logo-text {
-      margin-top: 20px;
-      width: 100%;
-      height: 200px;
-      background-image: url(../img/logo-text.png);
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: contain; }
-    .logo-wrap .info p {
-      text-align: right; }
-
-.countdown {
-  margin: 20px auto;
-  display: block;
-  max-width: 620px; }
