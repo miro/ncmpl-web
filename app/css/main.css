@@ -52,7 +52,8 @@ body {
 
 .tile {
   width: 360px;
-  padding: 0 20px;
+  padding: 0 20px 20px 20px;
+  margin-bottom: 50px;
   box-shadow: 30px 30px 90px 3px rgba(0, 0, 0, 0.75);
   background-color: #185E84;
   color: #FFF; }
@@ -61,12 +62,17 @@ body {
     margin: 20px 0 5px -20px;
     padding: 10px 20px;
     width: 100%;
-    background-color: #043651;
-    box-shadow: 0 8px 6px 0px black; }
+    background-color: #043651; }
+
+.tile.link {
+  background-color: #D07F1C; }
+  .tile.link h1 {
+    background-color: #804700; }
 
 .tile.intro {
   background-color: transparent;
-  box-shadow: none; }
+  box-shadow: none;
+  margin-bottom: 0; }
   .tile.intro .logo {
     margin: 20px auto 10px auto;
     width: 90%;
@@ -77,27 +83,35 @@ body {
     background-position: center center;
     background-size: contain; }
 
-.tile.ig {
-  padding-bottom: 20px; }
-  .tile.ig h1 {
-    background-color: #043651; }
-  .tile.ig .ig-wrap {
-    width: 100%;
-    margin: 0 auto; }
-    .tile.ig .ig-wrap .ig-img {
-      float: left;
-      width: 110px;
-      height: 110px;
-      margin: 15px 15px 0 0;
-      -webkit-transition: all 0.2s ease-in-out;
-              transition: all 0.2s ease-in-out; }
-      .tile.ig .ig-wrap .ig-img img {
-        width: 100%;
-        height: 100%; }
-      .tile.ig .ig-wrap .ig-img:nth-child(3), .tile.ig .ig-wrap .ig-img:nth-child(6) {
-        margin-right: 0; }
-      .tile.ig .ig-wrap .ig-img:hover {
-        -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-                transform: scale(1.1);
-        box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.75); }
+.tile.ig h1 {
+  background-color: #043651; }
+.tile.ig .ig-wrap {
+  width: 100%;
+  margin: 0 auto; }
+  .tile.ig .ig-wrap .ig-img {
+    float: left;
+    width: 110px;
+    height: 110px;
+    margin: 15px 15px 0 0;
+    -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out; }
+    .tile.ig .ig-wrap .ig-img img {
+      width: 100%;
+      height: 100%; }
+    .tile.ig .ig-wrap .ig-img:nth-child(3), .tile.ig .ig-wrap .ig-img:nth-child(6) {
+      margin-right: 0; }
+    .tile.ig .ig-wrap .ig-img:hover {
+      -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+              transform: scale(1.1);
+      box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.75); }
+
+.tile.gigs {
+  background-color: #A14EAA; }
+  .tile.gigs h1 {
+    background-color: #4C0154; }
+
+.tile.fb {
+  background-color: #B2CA1B; }
+  .tile.fb h1 {
+    background-color: #6B7D00; }
