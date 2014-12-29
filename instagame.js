@@ -6,9 +6,9 @@ var _           = require('lodash');
 var clientId = process.env.NOCO_INSTAGRAM_CLIENTID; // user key to your Instagram app
 var userId = 888992740; // user id for IG user whos images we are fetching. this one is @ncmpl
 
-function latestPictures(cb) {
+function latestPictures(amount, cb) {
 
-    request('https://api.instagram.com/v1/users/' + userId + '/media/recent?count=50&client_id=' + clientId,
+    request('https://api.instagram.com/v1/users/' + userId + '/media/recent?count=' + amount + '&client_id=' + clientId,
         function (error, response, body) {
             if (error) sendJson(error);
 

@@ -28,7 +28,7 @@ app.configure(function() {
 
 
     app.get('/api/instagameFeed', function(req, res) {
-        instagame.latestPictures(sendJson(res));
+        instagame.latestPictures(15, sendJson(res));
     });
 });
 
