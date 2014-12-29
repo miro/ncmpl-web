@@ -1,8 +1,35 @@
 
 <div class="landing" ng-controller="landingController" ng-init="init()">
-    <div class="logo-wrap">
-        <div class="logo-text"></div>
-        <p>Bass-heavy Dancefloor Destruction.</p>
+    
+    <div class="column">
+        <div class="tile intro">
+            <div class="logo"></div>
+        </div>
+
+        <div class="tile">
+            <p>Bass-heavy Dancefloor Destruction.</p>
+        </div>
     </div>
+
+
+    <div class="column">
+        <div class="tile ig">
+        <!-- todo: loading -->
+            <div class="images-wrap" ng-hide="!igImages.length">
+                <div class="ig-image" ng-repeat="image in igImages">
+                    <img src="{{image.thumbnailUrl}}" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="column">
+        <div class="tile intro">
+            <div class="logo"></div>
+            <p>Bass-heavy Dancefloor Destruction.</p>
+        </div>
+    </div>
+
 
 </div>
