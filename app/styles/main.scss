@@ -2,6 +2,10 @@
 @import 'colors';
 @import 'clearfix';
 
+body {
+    background-color: $color-secondary-2-4;
+}
+
 .bg { // Wrap for the picture background
     z-index: 1;
 
@@ -11,17 +15,20 @@
     width: 100%;
     height: 100%;
 
+    background-color: #000;
     background-size: cover;
     background-image: url(../img/noco-lab-bg.jpg);
     background-position: center center;
+    background-attachment: fixed;
 }
 
 
 .main-wrap {
     z-index: 2;
+    @extend .clearfix;
 
-    width: 100%;
-    max-width: 960px;
+    width: 95%;
+    max-width: 1260px;
 
     display: block;
     position: relative;
