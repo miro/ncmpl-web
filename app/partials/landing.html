@@ -7,6 +7,7 @@
         </div>
 
         <div class="tile">
+
             <p>Bass-heavy Dancefloor Destruction.</p>
         </div>
     </div>
@@ -15,18 +16,26 @@
     <div class="column">
         <div class="tile ig">
         <!-- todo: loading -->
-            <div class="images-wrap" ng-hide="!igImages.length">
-                <div class="ig-image" ng-repeat="image in igImages">
+            <div class="ig-wrap">
+                <a class="ig-img" href="{{image.link}}" target="_blank" ng-repeat="image in igImages.firstHalf">
                     <img src="{{image.thumbnailUrl}}" />
-                </div>
+                </a>
+            </div>
+
+            <h1>Instagame</h1>
+
+            <div class="ig-wrap">
+                <a class="ig-img" href="{{image.link}}" target="_blank" ng-repeat="image in igImages.secondHalf">
+                    <img src="{{image.thumbnailUrl}}" />
+                </a>
             </div>
         </div>
     </div>
 
 
     <div class="column">
-        <div class="tile intro">
-            <div class="logo"></div>
+        <div class="tile gigs">
+            <h1>Dates</h1>
             <p>Bass-heavy Dancefloor Destruction.</p>
         </div>
     </div>

@@ -2,8 +2,18 @@
 @import 'colors';
 @import 'clearfix';
 
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic);
+//@import url(http://fonts.googleapis.com/css?family=BenchNine:400,700);
+
 body {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 20px;
+    
     background-color: $color-secondary-2-4;
+
+    h1, h2, h3, h4 {
+        font-style: italic;
+    }
 }
 
 .bg { // Wrap for the picture background
