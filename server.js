@@ -27,8 +27,8 @@ app.configure(function() {
     app.use(express.static(filesDir));
 
 
-    app.get('/api/instagameFeed', function(req, res) {
-        instagame.latestPictures(15, sendJson(res));
+    app.get('/api/instagameFeed/count/:count', function(req, res) {
+        instagame.latestPictures(req.params.count, sendJson(res));
     });
 });
 

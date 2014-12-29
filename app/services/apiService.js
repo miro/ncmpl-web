@@ -9,9 +9,9 @@ function(
 
 	var apiService = {};
 
-	apiService.getInstagameFeed = function getInstagameFeed() {
+	apiService.getRecentIgPhotos = function getRecentIgPhotos(count) {
 		return $q(function(resolve, reject) {
-			$http.get(apiUrl + 'instagameFeed')
+			$http.get(apiUrl + 'instagameFeed/count/' + count)
 			.then(
 				function success(response) {
 					resolve(response.data);
