@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:200,400);
 /* Main Primary color */
 /* Main Secondary color (1) */
 /* Main Secondary color (2) */
@@ -17,11 +17,12 @@
   clear: both; }
 
 body {
-  font-family: 'Archivo Narrow', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   background-color: #043651; }
   body h1, body h2, body h3, body h4 {
-    font-style: italic; }
+    font-weight: 200;
+    text-transform: uppercase; }
 
 .bg {
   z-index: 1;
@@ -53,21 +54,17 @@ body {
 .tile {
   width: 360px;
   padding: 0 20px 20px 20px;
-  margin-bottom: 50px;
-  box-shadow: 30px 30px 90px 3px rgba(0, 0, 0, 0.75);
-  background-color: #185E84;
+  margin-bottom: 20px;
+  box-shadow: 30px 30px 90px 3px rgba(0, 0, 0, 0.8);
+  background-color: rgba(24, 94, 132, 0.6);
+  border-radius: 3px;
   color: #FFF; }
   .tile h1 {
     display: inline-block;
     margin: 20px 0 5px -20px;
     padding: 10px 20px;
     width: 100%;
-    background-color: #043651; }
-
-.tile.link {
-  background-color: #D07F1C; }
-  .tile.link h1 {
-    background-color: #804700; }
+    background-color: rgba(4, 54, 81, 0.85); }
 
 .tile.intro {
   background-color: transparent;
@@ -83,8 +80,6 @@ body {
     background-position: center center;
     background-size: contain; }
 
-.tile.ig h1 {
-  background-color: #043651; }
 .tile.ig .ig-wrap {
   width: 100%;
   margin: 0 auto; }
@@ -105,13 +100,3 @@ body {
           -ms-transform: scale(1.1);
               transform: scale(1.1);
       box-shadow: 10px 10px 10px 3px rgba(0, 0, 0, 0.75); }
-
-.tile.gigs {
-  background-color: #A14EAA; }
-  .tile.gigs h1 {
-    background-color: #4C0154; }
-
-.tile.fb {
-  background-color: #B2CA1B; }
-  .tile.fb h1 {
-    background-color: #6B7D00; }

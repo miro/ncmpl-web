@@ -14,12 +14,13 @@
     @extend .clearfix;
     width: 360px;
     padding: 0 20px 20px 20px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 
-    box-shadow: 30px 30px 90px 3px rgba(0,0,0,0.75);
-    background-color: $color-secondary-2-0;
+    box-shadow: 30px 30px 90px 3px rgba(0,0,0,0.8);
+    background-color: rgba(24,94,132,0.6); //$color-secondary-2-0;
 
-    // TODO GRADIENT BG!
+    border-radius: 3px;
+
     color: $white;
 
     h1 {
@@ -27,15 +28,9 @@
         margin: 20px 0 5px -20px;
         padding: 10px 20px;
         width: 100%;
-        background-color: $color-secondary-2-4;
+        background-color: rgba(4,54,81,0.85); //$color-secondary-2-4;
     }
 }
-
-.tile.link {
-    background-color: $color-secondary-1-0;
-    h1 { background-color: $color-secondary-1-4; }
-}
-
 
 .tile.intro {
     background-color: transparent;
@@ -57,7 +52,6 @@
 
 
 .tile.ig {
-    h1 { background-color: $color-secondary-2-4; }
 
     .ig-wrap {
         @extend .clearfix;
@@ -90,12 +84,4 @@
     }
 }
 
-.tile.gigs {
-    background-color: $color-primary-1;
-    h1 { background-color: $color-primary-4; }
-}
 
-.tile.fb {
-    background-color: $color-complement-0;
-    h1 { background-color: $color-complement-4; }
-}
